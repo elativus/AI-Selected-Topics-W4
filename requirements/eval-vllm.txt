@@ -1,0 +1,4 @@
+-r base-core.txt
+openai>=1.40
+transformers>=4.50
+vllm>=0.10.2

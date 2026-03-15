@@ -1,0 +1,9 @@
+-r base-core.txt
+accelerate>=1.0
+bitsandbytes>=0.44; platform_system == "Linux"
+diffusers>=0.30
+peft>=0.12
+sentencepiece>=0.2
+transformers>=4.50
+trl>=0.22
+unsloth>=2025.2

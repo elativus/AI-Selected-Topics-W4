@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safe-triage-env"
+version = "0.2.0"
+description = "Synthetic tool-using triage environment with split Unsloth-train and vLLM-eval runtimes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["triage*", "base*", "runtimes*"]
